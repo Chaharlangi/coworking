@@ -1,0 +1,495 @@
+body {
+    box-sizing: border-box;
+
+    nav {
+        .navbar {
+            width: 100%;
+            height: 80px;
+            position: absolute;
+            z-index: 9;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+
+            .logoImg {
+                width: 50%;
+
+                .logo {
+                    width: 80px;
+                    height: 80px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            .links {
+                width: 50%;
+                display: flex;
+                justify-content: flex-end;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bolder;
+                    padding: 7px;
+
+                }
+
+                a:hover {
+                    color: rgb(252, 78, 25);
+                }
+            }
+
+        }
+
+    }
+
+    header {
+        position: relative;
+
+        .imageCover {
+            width: 100%;
+            height: 650px;
+            background: #000;
+
+            img {
+                width: 100%;
+                height: 650px;
+                opacity: 0.5;
+                object-fit: cover;
+            }
+        }
+
+        .text {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            left: 400px;
+            align-items: flex-start;
+            top: 200px;
+            color: #ffffff;
+            width: 600px;
+            height: 200px;
+
+            h1 {
+                font-size: 45px;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .btn {
+                background: #FE4308;
+            }
+
+            .btn:hover {
+                background: rgba(223, 154, 5, 0.664);
+            }
+        }
+
+    }
+
+    .About {
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .AboutUs {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+
+            .image {
+                width: 400px;
+                height: 300px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 15px;
+                }
+            }
+
+            .textA {
+                width: 400px;
+                padding-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+
+    .Reservation {
+        position: relative;
+
+        .coverImag {
+            width: 100%;
+            height: 700px;
+            background: #000;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                opacity: 0.5;
+
+            }
+        }
+
+        .textC {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            left: 400px;
+            align-items: flex-start;
+            top: 250px;
+            color: #ffffff;
+            width: 600px;
+            height: 200px;
+
+            h1 {
+                font-size: 45px;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .btn {
+                background: #FE4308;
+            }
+
+            .btn:hover {
+                background: rgba(223, 154, 5, 0.664);
+            }
+        }
+
+    }
+
+    .Packages {
+        padding: 70px 0 70px 0;
+
+        .titleSerch {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+
+            .title {
+                color: #FE4308;
+            }
+
+            .title:hover {
+                color: rgba(223, 154, 5, 0.664);
+            }
+
+            align-items: center;
+
+            .serch {
+                display: flex;
+
+                .btn {
+                    background: #FE4308;
+                    color: #ffffff;
+                    font-weight: bold;
+                }
+
+                .btn:hover {
+                    background: rgba(223, 154, 5, 0.664);
+                }
+            }
+        }
+
+
+        .packagesCard {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .cardBlog {
+                position: relative;
+                display: flex;
+                width: 30%;
+
+                .cardP {
+                    height: 250px;
+                    margin: 15px;
+                    background: #000;
+                    border-radius: 15px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 15px;
+                        object-fit: cover;
+                        opacity: 0.5;
+                    }
+
+                }
+
+
+                .cardText {
+                    width: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    position: absolute;
+                    top: 70px;
+                    left: 70px;
+                    z-index: 9;
+                    color: #ffffff;
+                }
+
+                .cardText:hover {
+                    color: #FE4308;
+                }
+            }
+        }
+
+
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        background: rgb(49, 44, 44);
+
+        .link {
+            display: flex;
+
+            a {
+                padding: 7px;
+                text-decoration: none;
+                color: #ffffff;
+                font-weight: bold;
+            }
+
+            a:hover {
+                color: #FE4308;
+            }
+
+            .btn {
+                margin-left: 7px;
+            }
+
+            .btn:hover {
+                color: #ffffff;
+            }
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+    }
+
+
+
+}
+
+
+
+.login {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    .left {
+        width: 30%;
+        background: #fdfdfd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .logoL {
+            width: 200px;
+            height: 200px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .textL {
+            width: 300px;
+
+            h2 {
+                color: #FE4308;
+            }
+
+            p {
+                color: rgba(161, 114, 11, 0.664);
+                font-weight: normal;
+            }
+        }
+    }
+
+    .right {
+        width: 70%;
+        background: #ff723b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        form {
+            width: 400px;
+
+            small {
+                color: #f5f5f5;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        .text {
+            left: 160px !important;
+            max-width: 500px !important;
+        }
+    }
+
+    .Reservation {
+        .textC {
+            left: 160px !important;
+            max-width: 500px !important;
+
+        }
+    }
+
+    .About {
+        display: none !important;
+    }
+
+    .Packages {
+        .packagesCard {
+            flex-direction: column !important;
+
+            .cardBlog {
+                width: 100% !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 568px) {
+    header {
+        .text {
+            left: 100px !important;
+            max-width: 400px !important;
+        }
+    }
+
+    .Reservation {
+        .textC {
+            left: 100px !important;
+            max-width: 400px !important;
+
+        }
+    }
+
+    .Packages {
+        .titleSerch {
+            justify-content: center;
+
+            .title {
+                display: none;
+            }
+
+            .serch {
+                padding: 15px;
+                width: 100%;
+
+                .btn {
+                    margin-top: 0 !important;
+
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    header {
+        .text {
+            left: 80px !important;
+            max-width: 200px !important;
+
+            h1 {
+                font-size: 20px !important;
+            }
+
+            p {
+                font-size: 15px !important;
+            }
+        }
+    }
+
+    .Reservation {
+        .textC {
+            left: 80px !important;
+            max-width: 200px !important;
+
+            h1 {
+                font-size: 20px !important;
+            }
+
+            p {
+                font-size: 15px !important;
+            }
+
+        }
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto !important;
+
+        .link {
+            flex-direction: column !important;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            a {
+                width: 100%;
+                margin: 3px;
+                border-bottom: 1px solid rgb(255, 124, 63);
+            }
+
+            .btn {
+                border-bottom: none !important;
+            }
+        }
+    }
+
+}
